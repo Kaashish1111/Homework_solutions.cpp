@@ -18,14 +18,15 @@ int main(){
         int num=1;
         int no_of_gaps=row-i;
         for(int j=1;j<=no_of_gaps;j++){
-            cout << " ";
+            cout << "  ";
         }
         for(int k=1;k<=i;k++){
-            cout << num;
+            cout << num<<" ";
             num++;
         }
-        for(int l=1;l<=no_of_gaps;l++){
-            cout << " ";
+        for(int k=2;k<=i;k++){
+            cout << num<<" ";
+            num++;
         }
         cout << endl;
     }
