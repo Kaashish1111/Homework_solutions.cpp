@@ -1,5 +1,6 @@
 // 1: Find the cube of a number using Function.
 
+
 #include<iostream>
 using namespace std;
 
