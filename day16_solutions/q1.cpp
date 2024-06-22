@@ -1,11 +1,11 @@
-// Write a program to convert binary numbers to decimal numbers using a for loop.
+// Write a program to convert decimal numbers to binary numbers using a for loop.
 
 #include <iostream>
 using namespace std;
 
 int main(){
     int num;
-    cout << "Enter a binary number: ";
+    cout << "Enter a decimal number: ";
     cin >> num;
     int ans = 0;
     int mul = 1;
